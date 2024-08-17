@@ -990,16 +990,26 @@ a:focus {
     gap: 0.5rem;
   }
   .bookingg {
-    margin: 1.5rem 0;
+    margin: 1.3rem 0;
   }
 }
 @media (max-width:550px) {
   .address .container .addresss{
     flex-direction: column-reverse;
+    gap: 0rem;
   }
   .address .container p {
     font-size: 21px;
   }
+  .address .booking {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0rem;
+    color: #fff;
+    padding-top: 0.5rem;
+    flex-direction: column-reverse;
+   }
 }
 
 .dddddddd {
