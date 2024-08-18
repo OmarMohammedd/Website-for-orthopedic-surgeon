@@ -1016,3 +1016,27 @@ a:focus {
   font-size: 2rem;    
   font-weight: bold;
 }
+
+
+
+
+  .header_section {
+    direction: rtl;
+  }
+  .navbar-nav {
+    text-align: right; 
+  }
+  .navbar-brand {
+    float: right;
+  }
+  .navbar-toggler {
+    float: left; 
+}
+@media (min-width:992px) {
+   .navbar-nav {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 100%;
+   }
+}
