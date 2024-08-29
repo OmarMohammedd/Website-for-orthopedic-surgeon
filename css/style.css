@@ -1159,4 +1159,5 @@ video {
   align-self: self-start !important;
   cursor: pointer;
   outline: none;
+  z-index: 9999;
 }
