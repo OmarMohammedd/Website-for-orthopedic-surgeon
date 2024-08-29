@@ -1158,4 +1158,5 @@ video {
   align-items: start !important;
   align-self: self-start !important;
   cursor: pointer;
+  outline: none;
 }
