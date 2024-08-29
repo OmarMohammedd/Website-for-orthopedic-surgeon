@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #000000;
   background-color: #fefefe;
   overflow-x: hidden;
@@ -47,11 +47,11 @@ html {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .heading_container h2 {
@@ -59,7 +59,6 @@ html {
   font-weight: bold;
   margin-bottom: 0;
   text-transform: uppercase;
-  
 }
 
 .heading_container p {
@@ -70,8 +69,8 @@ html {
 
 .heading_container.heading_center {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -90,7 +89,7 @@ a:focus {
 .btn:focus {
   outline: none !important;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 /*header section*/
@@ -102,8 +101,8 @@ a:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .hero_area .hero_bg_box {
@@ -116,11 +115,11 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   overflow: hidden;
   z-index: -1;
 }
@@ -129,9 +128,9 @@ a:focus {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: bottom right;
-     object-position: bottom right;
+  object-position: bottom right;
 }
 
 .sub_page .hero_area {
@@ -215,7 +214,8 @@ a:focus {
   transition: all 0.3s;
 }
 
-.custom_nav-container .navbar-toggler span::before, .custom_nav-container .navbar-toggler span::after {
+.custom_nav-container .navbar-toggler span::before,
+.custom_nav-container .navbar-toggler span::after {
   content: "";
   position: absolute;
   left: 0;
@@ -234,17 +234,18 @@ a:focus {
 
 .custom_nav-container .navbar-toggler[aria-expanded="true"] {
   -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .custom_nav-container .navbar-toggler[aria-expanded="true"] span {
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
-.custom_nav-container .navbar-toggler[aria-expanded="true"] span::before, .custom_nav-container .navbar-toggler[aria-expanded="true"] span::after {
+.custom_nav-container .navbar-toggler[aria-expanded="true"] span::before,
+.custom_nav-container .navbar-toggler[aria-expanded="true"] span::after {
   -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
   top: 0;
 }
 
@@ -252,22 +253,22 @@ a:focus {
 /* slider section */
 .slider_section {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: relative;
   padding: 45px 0 145px 0;
 }
 
 .slider_section .row {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .slider_section #customCarousel1 {
@@ -328,8 +329,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .slider_section .img-box img {
@@ -341,12 +342,12 @@ a:focus {
   position: unset;
   margin: 0;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-          margin-top: 1rem;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 1rem;
 }
 
 .slider_section .carousel-indicators li {
@@ -372,11 +373,11 @@ a:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 45px;
   background-color: #ffffff;
   border-radius: 5px;
@@ -393,11 +394,11 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .department_section .box .img-box img {
@@ -427,8 +428,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: 45px;
 }
 
@@ -450,8 +451,8 @@ a:focus {
 
 .about_section .row {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .about_section .img-box {
@@ -459,8 +460,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .about_section .img-box {
@@ -470,7 +471,7 @@ a:focus {
   width: 100%;
   border-radius: 15px;
 }
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .about_section .img-box {
     width: 280px;
     margin: auto;
@@ -526,8 +527,8 @@ a:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   overflow: hidden;
   margin-top: 45px;
   border-radius: 10px;
@@ -556,7 +557,7 @@ a:focus {
   left: 50%;
   top: 150%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   background-color: #ffffff;
   padding: 10px;
   border-radius: 5px;
@@ -564,8 +565,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   opacity: 0;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .doctor_section .box .detail-box .social_box a {
@@ -587,8 +588,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: 45px;
 }
 
@@ -677,16 +678,16 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   padding: 0;
 }
 
 .contact_section .map_container .map {
   height: 100%;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .contact_section .map_container .map #googleMap {
@@ -695,10 +696,10 @@ a:focus {
 
 .client_section .heading_container {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-          margin-top: 3.5rem;
-          margin-bottom: -1.5rem;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 3.5rem;
+  margin-bottom: -1.5rem;
 }
 
 .client_section .box {
@@ -707,11 +708,11 @@ a:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   margin: 45px;
   border-radius: 15px;
@@ -736,8 +737,8 @@ a:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .client_section .box .detail-box .name img {
@@ -758,8 +759,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .client_section .carousel-control-prev,
@@ -809,8 +810,8 @@ a:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .footer_section .footer_contact .contact_link_box a {
@@ -839,11 +840,11 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #ffffff;
   border-radius: 100%;
   margin-right: 10px;
@@ -859,7 +860,7 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .footer_section .footer_links a {
@@ -867,8 +868,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-right: 15px;
   margin-bottom: 15px;
   color: #ffffff;
@@ -939,19 +940,7 @@ a:focus {
 }
 /*# sourceMappingURL=style.css.map */
 
-
-
-
-
-
-
-
-
-
-
-
-
-.address .container .addresss{
+.address .container .addresss {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -976,16 +965,16 @@ a:focus {
 }
 
 .address .booking {
- display: flex;
- align-items: center;
- justify-content: center;
- gap: 0.4rem;
- color: #fff;
- padding-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  color: #fff;
+  padding-top: 0.5rem;
 }
 
-@media (max-width:992px) {
-  .address .container .addresss{
+@media (max-width: 992px) {
+  .address .container .addresss {
     justify-content: center;
     gap: 0.5rem;
   }
@@ -993,8 +982,8 @@ a:focus {
     margin: 1.3rem 0;
   }
 }
-@media (max-width:550px) {
-  .address .container .addresss{
+@media (max-width: 550px) {
+  .address .container .addresss {
     flex-direction: column-reverse;
     gap: 0rem;
   }
@@ -1009,35 +998,164 @@ a:focus {
     color: #fff;
     padding-top: 0.5rem;
     flex-direction: column-reverse;
-   }
+  }
 }
 
 .dddddddd {
-  font-size: 2rem;    
+  font-size: 2rem;
   font-weight: bold;
 }
 
-
-
-
-
-  .header_section {
-    direction: rtl;
-  }
-  .navbar-nav {
-    text-align: right; 
-  }
-  .navbar-brand {
-    float: right;
-  }
-  .navbar-toggler {
-    float: left; 
+.header_section {
+  direction: rtl;
 }
-@media (min-width:992px) {
-   .navbar-nav {
+.navbar-nav {
+  text-align: right;
+}
+.navbar-brand {
+  float: right;
+}
+.navbar-toggler {
+  float: left;
+}
+@media (min-width: 992px) {
+  .navbar-nav {
     display: flex;
     align-items: start;
     justify-content: end;
     width: 100%;
-   }
+  }
+}
+
+/* .videoo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0 4rem;
+} 
+video {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  height: 450px;
+  object-fit: cover;
+}  */
+
+.videoo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0 4rem;
+  position: relative;
+}
+video {
+  width: 100%;
+  height: 450px;
+  max-width: 100%;
+  display: block;
+  position: relative;
+  z-index: 1;
+  background-color: black;
+}
+.videoo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./images/451270074_468665179436046_8822357850890990554_n.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+video::-webkit-media-controls {
+  background: transparent;
+}
+
+/* 
+video {
+  width: 100%;   
+  height: 450px; 
+  max-width: 100%;
+  display: block;
+  object-fit: contain; 
+  background-color: black; 
+} */
+
+@media (max-width: 778px) {
+  video {
+    height: 300px;
+  }
+}
+
+.inquiries {
+  text-align: center;
+  margin-bottom: 5rem;
+  margin-top: -1rem;
+}
+.inquiries h2 {
+  position: relative;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.inquiries .inputss {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.8rem;
+  width: 70%;
+  margin: auto;
+  direction: rtl;
+}
+.inquiries .inputss input {
+  width: 100%;
+  color: #666;
+  padding: 0.75em;
+  height: auto;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dddddd;
+  border-radius: 2px;
+  background: #fafafa;
+  box-shadow: none;
+  box-sizing: border-box;
+  transition: all 0.2s linear;
+  outline: none;
+}
+@media (max-width: 778px) {
+  .inquiries .inputss {
+    gap: 1.4rem;
+    width: 100%;
+  }
+}
+
+.inputss button {
+  border-style: solid;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  color: #ffffff;
+  border-color: #62d2a2;
+  background-color: #62d2a2;
+  padding-top: 16px;
+  padding-right: 40px;
+  padding-bottom: 16px;
+  padding-left: 40px;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: 1em;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  justify-content: start !important;
+  align-items: start !important;
+  align-self: self-start !important;
+  cursor: pointer;
 }

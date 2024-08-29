@@ -33,6 +33,16 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('73dILlxnD70yZMC-r')
+</script>
+
+<script src="email.js"></script>
+
 </head>
 
 <body>
@@ -167,9 +177,90 @@
   </div>
 
 
+
+  <div class="videoo">
+    <div class="container">
+      <video src="./images/An_OYLmI5ReIZs9jppGhVwnLZNQ6ubrzXRuML82ebS4uLKkSwCdCDgmyLtppsm8hR_NmUNe3F6aDDl3a2Zvt1hls.mp4" 
+             poster="./images/451270074_468665179436046_8822357850890990554_n.png" 
+             autoplay 
+             controls
+             >
+      </video>
+    </div>
+  </div>
+  
+
+    <!-- about section -->
+
+    <section id="about" class="about_section layout_margin-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 ">
+            <div class="img-box">
+               <img src="images/WhatsApp Image 2024-08-15 at 01.28.07_57981d6a.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="detail-box" >
+              <div class="heading_container">
+                <h2>
+                  معلومات عنا
+                </h2>
+              </div>
+              <p dir="rtl"  style="font-size: 21px; text-align: right;">
+                د. محمد عمرو  مدرس جراحة العظام -طب القصر العيني  
+  استشاري جراحات ومناظير المفاصل وإصابات الملاعب 
+  استشاري جراحات المفاصل الصناعية والكسور
+  
+              </p>
+              <a href="" >
+                اقرأ المزيد
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- end about section -->
+
+
+  <section class="inquiries">
+      <div class="container">
+           <h2>أرسل استفساراتك</h2>
+
+        <form class="inputss" >
+             <input type="text" id="name" name="name" placeholder="الاسم">
+             <input type="number" id="phone" name="phone" placeholder="رقم الهاتف">
+             <input type="text" id="location" name="location" placeholder="المكان">
+
+             <button type="submit" onclick="validateAndSend(event)">ارسال الان</button>
+
+
+        </form>
+      </div>
+  </section>
+
+<script>
+  function validateAndSend(event) {
+    event.preventDefault();
+
+    const name = document.getElementById('name').value.trim();
+    const phone = document.getElementById('phone').value.trim();
+    const location = document.getElementById('location').value.trim();
+
+    if (name === '' || phone === '' || location === '') {
+      alert('يرجى ملء جميع الحقول قبل الإرسال');
+    } else {
+      sendMail();
+    }
+  }
+</script>
+
+
   <!-- department section -->
 
-  <section style="margin-top: -3rem;" id="departments" class="department_section layout_padding">
+  <section style="margin-top: -7rem;" id="departments" class="department_section layout_padding">
     <div class="department_container">
       <div class="container ">
         <div class="heading_container heading_center">
@@ -251,40 +342,6 @@
   </section>
 
   <!-- end department section -->
-
-  <!-- about section -->
-
-  <section id="about" class="about_section layout_margin-bottom">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 ">
-          <div class="img-box">
-             <img src="images/WhatsApp Image 2024-08-15 at 01.28.07_57981d6a.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="detail-box" >
-            <div class="heading_container">
-              <h2>
-                معلومات عنا
-              </h2>
-            </div>
-            <p dir="rtl"  style="font-size: 21px; text-align: right;">
-              د. محمد عمرو  مدرس جراحة العظام -طب القصر العيني  
-استشاري جراحات ومناظير المفاصل وإصابات الملاعب 
-استشاري جراحات المفاصل الصناعية والكسور
-
-            </p>
-            <a href="" >
-              اقرأ المزيد
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end about section -->
 
   <!-- doctor section -->
 
@@ -512,6 +569,7 @@
   </script>
   <!-- End Google Map -->
 
+  
 </body>
 
 </html>
