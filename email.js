@@ -6,10 +6,7 @@ function sendMail() {
 	  location: document.getElementById("location").value,
 	};
   
-	const serviceID = "service_bejt3bw";
-	const templateID = "template_qfynzwu";
-  
-	  emailjs.send("service_bejt3bw", "template_qfynzwu", params).then(alert("تم الارسال بنجاح"))
+	  emailjs.send("service_eqxrn3g", "template_xp1rjj6", params).then(alert("تم الارسال بنجاح"))
 
 	
   }
